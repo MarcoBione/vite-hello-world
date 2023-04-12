@@ -1,0 +1,33 @@
+/* ### palette ### */
+:root {
+  --delft-blue: #3a405aff;
+  --powder-blue: #aec5ebff;
+  --champagne-pink: #f9dec9ff;
+  --melon: #e9afa3ff;
+  --umber: #685044ff;
+}
+
+/* ## Dimentions ## */
+.container{
+  text-align: center;
+  margin: 0 auto;
+  width: 50%;
+  background-color: var(--melon);
+}
+
+/* ## header ## */
+._myheader{
+  background-color: var(--powder-blue);
+}
+._mytitle {
+  color: var(--delft-blue);
+  font-size: 2.5rem;
+  margin: 0px;
+}
+
+/* ## hero ## */
+._myparagraph{
+  color: var(--umber);
+  margin: 0;
+}
+
